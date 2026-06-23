@@ -4,44 +4,46 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Greyveil Editions | A Place Where Ideas Take Form</title>
-  <meta name="description" content="Greyveil Editions is the reflective archive of Lalit R. Mishra: books, philosophical projects, and studies of human understanding." />
+  <meta name="description" content="Greyveil Editions is a literary and psychology publishing house. The Human Paradox Collection unites The Human Mind, The Human Paradox, and The Human Fiction into one reflective universe." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <div class="cursor-glow" aria-hidden="true"></div>
   <div class="ambient-field" aria-hidden="true"><span></span><span></span><span></span></div>
   <header class="site-header" data-header>
     <a class="brand" href="index.html">Greyveil Editions</a>
     <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-nav-toggle>Menu</button>
-    <nav class="site-nav" data-nav>
+    <nav class="site-nav" data-nav aria-label="Primary">
       <a href="index.html" aria-current="page">Home</a>
       <a href="about/index.html">About</a>
       <div class="dropdown">
-        <button class="dropdown-trigger" type="button">Projects</button>
+        <button class="dropdown-trigger" type="button" aria-haspopup="true">Projects</button>
         <div class="dropdown-menu">
-          <a href="projects/index.html">All Projects</a>
-          <a href="projects/human-mind/index.html">Human Mind</a>
+          <a href="projects/index.html">The Human Paradox Collection</a>
+          <a href="projects/human-mind/index.html">The Human Mind</a>
           <a href="projects/human-paradox/index.html">The Human Paradox</a>
-          <a href="projects/future-projects/index.html">Future Projects</a>
+          <a href="projects/human-fiction/index.html">The Human Fiction</a>
         </div>
       </div>
       <a href="credits/index.html">Credits</a><a href="contact/index.html">Contact</a>
     </nav>
   </header>
 
-  <main>
+  <main id="main-content">
     <section class="hero page-shell">
       <div class="reveal">
-        <p class="eyebrow">A Place Where Ideas Take Form</p>
-        <h1>Exploring the unseen forces that shape human experience.</h1>
-        <p class="hero-text">Greyveil Editions is a curated archive of psychology, philosophy, silence, repetition, attachment, perception, and the slow work of understanding what lives beneath ordinary life.</p>
+        <p class="eyebrow">A Literary &amp; Psychology Publishing House</p>
+        <h1>Stories that explain the mind you didn&rsquo;t know you had.</h1>
+        <p class="hero-text">Greyveil Editions publishes reflective fiction and philosophy on attachment, memory, silence, and the quiet architecture of being human &mdash; written to be read slowly, and felt longer.</p>
         <div class="button-row">
-          <a class="button primary" href="projects/index.html">Explore Projects</a>
-          <a class="button ghost" href="about/index.html">Meet the Author</a>
+          <a class="button primary" href="projects/human-mind/index.html#books">Read Chapters</a>
+          <a class="button ghost" href="projects/index.html">Explore the Collection</a>
         </div>
+        <a class="hero-link" href="about/index.html">Meet the Author &rarr;</a>
       </div>
       <div class="reveal delay-1">
         <div class="archive-object logo-archive">
@@ -54,45 +56,37 @@
       <p class="word-line" data-words>Recognition is where the hidden weight of experience begins to change shape.</p>
     </section>
 
-    <section class="section page-shell">
+    <section class="section page-shell" aria-labelledby="collection-gateway-heading">
       <div class="section-heading reveal">
-        <p class="eyebrow">Platform hierarchy</p>
-        <h2>Greyveil Editions is the house. Each project is a room inside it.</h2>
+        <p class="eyebrow">One Collection, Three Series</p>
+        <h2 id="collection-gateway-heading">The Human Paradox is the house. Every series is a room inside it.</h2>
+        <p class="section-intro">A single unified exploration of the human mind &mdash; from consciousness, to contradiction, to story.</p>
       </div>
-      <div class="project-grid">
-        <a class="project-card tilt-card reveal" href="projects/human-mind/index.html">
-          <span>Active Project</span>
-          <h3>Human Mind</h3>
-          <p>Inside Consciousness: a philosophical exploration of attachment, identity, silence, repetition, perception, and understanding.</p>
-          <strong>Enter Project</strong>
-        </a>
-        <a class="project-card tilt-card reveal delay-1" href="projects/human-paradox/index.html">
-          <span>New Series</span>
-          <h3>The Human Paradox</h3>
-          <p>Because understanding the mind is just the beginning. The real journey is understanding the paradox.</p>
+      <div class="project-grid rich-project-grid">
+        <a class="project-card rich-project-card tilt-card reveal" href="projects/human-mind/index.html">
+          <div class="project-image-wrap"><img src="assets/images/the human mind.png" alt="The Human Mind series artwork" loading="lazy" decoding="async"></div>
+          <span>Active</span>
+          <h3>The Human Mind</h3>
+          <p>An exploration of consciousness, identity, attachment, perception, silence and understanding.</p>
           <strong>Enter Series</strong>
         </a>
-        <a class="project-card tilt-card reveal delay-2" href="projects/future-projects/index.html">
-          <span>Future Project 2</span>
-          <h3>Unannounced Work</h3>
-          <p>New titles and philosophical projects can be added without changing the primary Greyveil identity.</p>
-          <strong>View Placeholder</strong>
+        <a class="project-card rich-project-card tilt-card reveal delay-1" href="projects/human-paradox/index.html">
+          <div class="project-image-wrap"><img src="assets/images/the human paradox.png" alt="The Human Paradox series artwork" loading="lazy" decoding="async"></div>
+          <span>Coming Soon</span>
+          <h3>The Human Paradox</h3>
+          <p>Because understanding the mind is only the beginning. The real journey is understanding the paradox.</p>
+          <strong>View Series</strong>
+        </a>
+        <a class="project-card rich-project-card tilt-card reveal delay-2" href="projects/human-fiction/index.html">
+          <div class="project-image-wrap"><img src="assets/images/greyveil-logo.png" alt="The Human Fiction series mark" loading="lazy" decoding="async"></div>
+          <span>Coming Soon</span>
+          <h3>The Human Fiction</h3>
+          <p>Stories, narratives and fictional explorations of human nature.</p>
+          <strong>View Series</strong>
         </a>
       </div>
-    </section>
-
-    <section class="section page-shell preview-band">
-      <div class="section-heading reveal">
-        <p class="eyebrow">Human Mind Preview</p>
-        <h2>One project, five entrances into inner life.</h2>
-        <p class="section-intro">A closer look at our flagship series, before you explore everything Greyveil has to offer.</p>
-      </div>
-      <div class="book-grid compact">
-        <article class="book-card accent-amber reveal"><div class="cover-slot"><img class="book-cover-image" src="projects/human-mind/assets/covers/the last shift.png" alt="The Last Shift book cover" loading="lazy" decoding="async"></div><h3>The Last Shift</h3><p>Attachment, identity, and memory.</p><a href="projects/human-mind/books/the-last-shift.html">Read Summary</a></article>
-        <article class="book-card accent-blue reveal delay-1"><div class="cover-slot"><img class="book-cover-image" src="projects/human-mind/assets/covers/the last shift pt-2 .png" alt="The Last Shift II book cover" loading="lazy" decoding="async"></div><h3>The Last Shift II</h3><p>Reality, assumptions, and interpretation.</p><a href="projects/human-mind/books/the-last-shift-ii.html">Read Summary</a></article>
-        <article class="book-card accent-lavender reveal delay-2"><div class="cover-slot"><img class="book-cover-image" src="projects/human-mind/assets/covers/the quiet i started living with .png" alt="The Quiet I Started Living With book cover" loading="lazy" decoding="async"></div><h3>The Quiet I Started Living With</h3><p>Silence, loneliness, and inner worlds.</p><a href="projects/human-mind/books/the-quiet-i-started-living-with.html">Read Summary</a></article>
-        <article class="book-card accent-emerald reveal"><div class="cover-slot"><img class="book-cover-image" src="projects/human-mind/assets/covers/the loop within .png" alt="The Loop Within book cover" loading="lazy" decoding="async"></div><h3>The Loop Within</h3><p>Patterns, repetition, and emotional cycles.</p><a href="projects/human-mind/books/the-loop-within.html">Read Summary</a></article>
-        <article class="book-card accent-gold reveal delay-1"><div class="cover-slot"><img class="book-cover-image" src="projects/human-mind/assets/covers/when understanding begins .png" alt="When Understanding Begins book cover" loading="lazy" decoding="async"></div><h3>When Understanding Begins</h3><p>Awareness, perspective, and wisdom.</p><a href="projects/human-mind/books/when-understanding-begins.html">Read Summary</a></article>
+      <div class="button-row reveal delay-2">
+        <a class="button primary" href="projects/index.html">Explore the Collection</a>
       </div>
     </section>
 
@@ -117,13 +111,30 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <p>Greyveil Editions - Lalit R. Mishra - <span id="year"></span></p>
-    <div>
-      <a href="mailto:greyveileditions@gmail.com">Email</a>
-      <a href="tel:+917874560944">Phone</a>
-      <a href="https://wa.me/917874560944">WhatsApp</a>
-      <a href="https://www.instagram.com/greyveil_editions?utm_source=qr&igsh=bXZqcTJ6NmppYWJp">Instagram</a>
+  <footer class="site-footer site-footer--rich">
+    <div class="page-shell footer-grid">
+      <div class="footer-brand">
+        <p class="footer-brand-name">Greyveil Editions</p>
+        <p>A literary and psychology publishing house exploring memory, attachment, silence, and the quiet architecture of human experience.</p>
+      </div>
+      <nav class="footer-col" aria-label="Site navigation">
+        <h3>Site</h3>
+        <a href="index.html">Home</a>
+        <a href="about/index.html">About</a>
+        <a href="projects/index.html">Projects</a>
+        <a href="credits/index.html">Credits</a>
+        <a href="contact/index.html">Contact</a>
+      </nav>
+      <nav class="footer-col" aria-label="Connect with Greyveil Editions">
+        <h3>Connect</h3>
+        <a href="mailto:greyveileditions@gmail.com">Email</a>
+        <a href="tel:+917874560944">Phone</a>
+        <a href="https://wa.me/917874560944">WhatsApp</a>
+        <a href="https://www.instagram.com/greyveil_editions?utm_source=qr&igsh=bXZqcTJ6NmppYWJp">Instagram</a>
+      </nav>
+    </div>
+    <div class="page-shell footer-bottom">
+      <p>&copy; <span id="year"></span> Greyveil Editions &mdash; Lalit R. Mishra. All rights reserved.</p>
     </div>
   </footer>
   <script src="assets/js/main.js"></script>
